@@ -4,8 +4,8 @@ const nextConfig = {
   basePath: "/pet-care",
   assetPrefix: "/pet-care",
   images: {
-    loader: "custom",
-    path: "/pet-care",
+    loader: "default",
+    path: "/",
   },
 };
 
