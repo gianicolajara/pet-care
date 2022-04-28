@@ -13,6 +13,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      NEXT_PUBLIC_BASE_PATH: "/pet-care"
+
     strategy:
       matrix:
         node-version: [16.x]
