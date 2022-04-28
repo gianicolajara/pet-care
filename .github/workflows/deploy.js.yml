@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: "/pet-care"
+      NEXT_PUBLIC_BASE_PATH: /pet-care
 
     strategy:
       matrix:
