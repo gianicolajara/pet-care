@@ -4,8 +4,8 @@ const nextConfig = {
 
   images: {
     loader: "akamai",
-    path: "/",
-    domains: ["https://gianicolajara.github.io/pet-care/"],
+    path: "/pet-care",
+    domains: ["https://gianicolajara.github.io/"],
   },
   basePath: "/pet-care",
   assetPrefix: "/pet-care",
