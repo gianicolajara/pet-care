@@ -1,3 +1,4 @@
+import { prefix } from "../utils/prefix";
 import Button from "./Button";
 import Menu from "./Menu";
 import Wrapper from "./Wrapper";
@@ -5,7 +6,7 @@ import Wrapper from "./Wrapper";
 const Heroe = () => {
   return (
     <div
-      className={`h-screen bg-[url('${process.env.NEXT_PUBLIC_BASE_PATH}/images/heroe.jpg')] bg-center bg-cover flex flex-col text-center justify-center w-full`}
+      className={`h-screen bg-[url('${prefix}/images/heroe.jpg')] bg-center bg-cover flex flex-col text-center justify-center w-full`}
     >
       <Wrapper>
         <Menu />
