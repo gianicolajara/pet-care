@@ -4,7 +4,9 @@ import Wrapper from "./Wrapper";
 
 const Heroe = () => {
   return (
-    <div className="h-screen bg-[url('/images/heroe.jpg')] bg-center bg-cover flex flex-col text-center justify-center w-full">
+    <div
+      className={`h-screen bg-[url('${process.env.NEXT_PUBLIC_BASE_PATH}/images/heroe.jpg')] bg-center bg-cover flex flex-col text-center justify-center w-full`}
+    >
       <Wrapper>
         <Menu />
         <h1 className="text-white text-5xl font-extralight">

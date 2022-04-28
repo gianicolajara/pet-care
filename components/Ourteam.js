@@ -7,7 +7,9 @@ import Wrapper from "./Wrapper";
 
 const Ourteam = () => {
   return (
-    <Section className="w-full h-[500px] bg-[url('/images/ourteam.jpg')] bg-top bg-no-repeat bg-cover flex flex-col justify-center items-left">
+    <Section
+      className={`w-full h-[500px] bg-[url('${process.env.NEXT_PUBLIC_BASE_PATH}/images/ourteam.jpg')] bg-top bg-no-repeat bg-cover flex flex-col justify-center items-left`}
+    >
       <Wrapper>
         <div className="flex flex-col gap-5">
           <P color="text-white">Pet Lovers</P>
