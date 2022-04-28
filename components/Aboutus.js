@@ -49,6 +49,7 @@ const Aboutus = () => {
             layout="fill"
             alt="aboutusimage"
             objectFit="cover"
+            loader="https://raw.githubusercontent.com/gianicolajara/pet-care/main/public/images/aboutus.jpg"
           />
         </div>
       </div>
