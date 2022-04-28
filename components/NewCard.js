@@ -8,13 +8,7 @@ const NewCard = ({ image, alt, title, children }) => {
   return (
     <article className="flex flex-col w-full lg:max-w-[33%] min-h-[500px] shadow dark:bg-slate-700">
       <div className="relative w-full min-h-[200px]">
-        <Image
-          src={image}
-          layout="fill"
-          alt={alt}
-          objectFit="cover"
-          loader={`https://raw.githubusercontent.com/gianicolajara/pet-care/main/public${image}`}
-        />
+        <Image src={image} layout="fill" alt={alt} objectFit="cover" />
       </div>
 
       <div className="flex flex-col gap-5 p-5 flex-shrink-0 flex-grow justify-between">

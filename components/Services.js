@@ -57,7 +57,6 @@ const Services = () => {
             alt="services"
             objectFit="cover"
             objectPosition="center"
-            loader="https://raw.githubusercontent.com/gianicolajara/pet-care/main/public/images/services.jpg"
           />
         </div>
       </div>
